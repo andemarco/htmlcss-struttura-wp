@@ -7,6 +7,7 @@
 body {
 width: 900px;
 margin: 0 auto;
+background-color: black;
 }
 
 .main::after {
@@ -27,7 +28,7 @@ margin: 0 auto;
 
 .float-left {
   float: left;
-
+  margin-top: 25px;
 }
 
 .col-left {
@@ -38,7 +39,8 @@ margin: 0 auto;
 .col-center {
   background-color: blue;
   width: 50%;
-  margin: 0 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .col-right {
